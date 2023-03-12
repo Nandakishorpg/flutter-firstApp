@@ -13,8 +13,17 @@ class _NxtpageState extends State<Nxtpage> {
     return  Scaffold(
 
       appBar: AppBar(
-        title: Text('aaa'),
-        backgroundColor: Color.fromRGBO(255,99,71,1),
+        title: Row(
+          children: [
+            Text('aaa',style: TextStyle(color: Colors.white),),
+            Text('aaa'),
+            Text('aaa'),
+            Text('aaa'),
+            Text('aaa'),
+          ],
+        ),
+        backgroundColor: Color.fromRGBO(117, 75, 87, 1),
+
       ),
       body:
           
