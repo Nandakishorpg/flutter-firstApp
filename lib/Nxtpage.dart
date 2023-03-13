@@ -10,34 +10,36 @@ class Nxtpage extends StatefulWidget {
 class _NxtpageState extends State<Nxtpage> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-
+    return Scaffold(
       appBar: AppBar(
         title: Row(
           children: [
-            Text('aaa',style: TextStyle(color: Colors.white),),
-            Text('aaa'),
-            Text('aaa'),
-            Text('aaa'),
-            Text('aaa'),
+            Text(
+              'aaa',
+              style: TextStyle(color: Colors.white),
+            ),
+            Text('wwwww'),
+            Text('wwwww'),
+            Text('gggg'),
           ],
         ),
         backgroundColor: Color.fromRGBO(117, 75, 87, 1),
-
       ),
-      body:
-          
-      SingleChildScrollView(
-        // child: Column(
-        //   children: [
-        //     Center(child: Text("hello")),
-        //
-        //   Image(image: NetworkImage("https://wallpapercave.com/wp/wp3990003.jpg",scale: 7
-        //   ),)
-        //
-        //   ],
-        // ),
-
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Column(
+              children: [
+                Container(
+                  color: Colors.red,
+                  height: 100,
+                  width: 100,
+                  child: Text("hel"),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
